@@ -26,32 +26,3 @@ func(q *Query) Len() int{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*func(q *Query) OfType(typ interface{}) Query{
-	mytyp:=reflect.TypeOf(typ)
-
-	newSlice:=reflect.MakeSlice(reflect.SliceOf(mytyp),0,1)
-
-	for i:=0;i<q.v.Len();i++{
-		if mytyp==q.v.Index(i).Type(){
-			newSlice=reflect.Append(newSlice,q.v.Index(i))
-		}
-
-	}
-
-	return Query{
-		v:newSlice,
-	}
-}*/
-
-
