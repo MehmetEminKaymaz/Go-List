@@ -36,11 +36,11 @@ fmt.Println(myList.Where(func(x interface{}) bool {
 var a []Human
 	myList:=Lists.From(a)
 	myList.Add(Human{Name:"Mehmet",Age:23})
-	myList.Add(Human{Name:"johnny",Age:30})
+	myList.Add(Human{Name:"Samet",Age:30})
 	myList.Reverse()
 	fmt.Println(myList.ToSlice())
 ```
-Output : [{johnny 30} {Mehmet 23}]
+Output : [{Samet 30} {Mehmet 23}]
 
 ```Go
 myList.Foreach(func(x interface{}) (y interface{}) {
@@ -53,5 +53,5 @@ myList.Foreach(func(x interface{}) (y interface{}) {
   
 ```
 
-Output : [{Mehmet 24} {johnny 31}]
+Output : [{Mehmet 24} {Samet 31}]
   
