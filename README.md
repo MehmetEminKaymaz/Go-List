@@ -1,5 +1,8 @@
+![Image of Yaktocat](https://raw.githubusercontent.com/MehmetEminKaymaz/Go-List/master/gopher%20ben.jpeg)
+
 # Go-List
 List implementation over slices
+
 
 
 ### Installation
